@@ -1,0 +1,30 @@
+<<<<<<< HEAD
+Evaluation Project: Contact List
+=======
+Voxie Evaluation Project: Contact List
+>>>>>>> 08211af941771d8ac588e06e3687cc5d5971c701
+
+Please create a simple Django Application to Create, View, and Delete contacts. Given the below table definition for contacts build a Django app that:
+Creates a contact table as per the below spec.
+Populates the contacts table with sample data via a seeder script.
+Exposes a RESTful API to perform listing and CRUD operations on the contacts table.
+Sends an email notification when a contact is deleted to a configurable email address.
+Enforces that actions can only be performed by authenticated users with a certain roles:
+One role that has read-only access
+Another role that can read/add.
+Another role that can read/add/delete
+There should be a UI that will allow for the listing of contacts, creating a new contact, and deleting a contact.
+When completing the project pay particular attention to:
+Code Style
+Leveraging native framework patterns
+Adhering to framework best practices
+Including as many unit tests as possible.
+
+CREATE TABLE contacts (
+  id bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  name varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  email varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE = InnoDB AUTO_INCREMENT = 256 DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_unicode_ci;
+
+Best regards,

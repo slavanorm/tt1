@@ -1,0 +1,24 @@
+Django
+  api + ui for crud + list
+  contacts should use ddl
+    CREATE TABLE contacts (
+      id bigint(20),
+      name varchar(255),
+      email varchar(255),
+      PRIMARY KEY (`id`)
+    );
+
+todo 
+v  model
+v  viewset
+v  serializer
+v  drf 
+v  test
+
+v  email on_delete to settings.delete_control_email .
+https://www.section.io/engineering-education/how-to-send-email-in-django/
+v  actions are only for authenticated users
+    roles:
+      read
+      read/add
+      read/add/delete
