@@ -12,6 +12,8 @@ v  user roles actions
     writer:1
     deleter:1
 
-to manually test emailing, please set up mailing in .env file
-if using gmail, please enable the access:
-   https://myaccount.google.com/lesssecureapps
+to manually test emailing
+   set up credentials in .env file
+   if gmail
+      enable the access here
+         https://myaccount.google.com/lesssecureapps
